@@ -41,8 +41,12 @@
     border: 2px solid #ffffff;
     border-radius: 100%;
     margin: 0 15px;
+    transition: 0.3s all;
     img {
       height: 27px;
+    }
+    &:hover {
+      background: grey;
     }
   }
   &__social {
