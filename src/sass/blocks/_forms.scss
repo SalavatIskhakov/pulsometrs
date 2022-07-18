@@ -18,6 +18,10 @@
     }
   }
   &_mt25 {
+    align-items: center;
     margin-top: 25px;
+    input {
+      width: 100%;
+    }
   }
 }

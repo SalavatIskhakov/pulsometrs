@@ -171,4 +171,12 @@
       padding: 20px 0;
     }
   }
+  div.modal {
+    width: 280px;
+    padding: 20px;
+    &__close {
+      top: 1px;
+      right: 1px;
+    }
+  }
 }
