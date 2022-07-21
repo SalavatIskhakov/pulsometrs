@@ -69,4 +69,6 @@ $(document).ready(function () {
     $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
     return false;
   })
+
+  new WOW().init();
 });
